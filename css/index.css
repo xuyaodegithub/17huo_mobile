@@ -1,0 +1,129 @@
+header,.mb_banner{
+    padding:.3rem;
+    background-color: #fff;
+}
+.mb_index{
+    position: relative;
+}
+.mb_index input{
+    display: block;
+    width: 100%;
+    font-size: .24rem;
+    line-height: .7rem;
+    height: .7rem;
+    background-color: #f4f4f4;
+    text-indent: .75rem;
+    border-radius: .35rem;
+    border: none;
+}
+.mb_index .file{
+    display: none;
+}
+.mb_index img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: .28rem;
+    width: .38rem;
+    height: .38rem;
+}
+.mb_index img:last-child{
+    left: inherit;
+    right: .3rem;
+}
+.mb_nav{
+    background-color: #fff;
+    margin-top: .3rem;
+}
+.mb_banner{
+    padding-top: 0;
+}
+.mb_banner .mb_top{
+    border-radius: .2rem;
+    overflow: hidden;
+    background-image: url("../images/i_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem 0 .2rem;
+    text-align: center;
+    color: #fff;
+    font-size: .22rem;
+}
+.mb_top h2{
+    font-size: .54rem;
+    line-height: 1;
+    margin-bottom:.62rem;
+}
+.mb_top img{
+    width: .25rem;
+    height: .25rem;
+    margin: 0 .06rem 0 .14rem;
+}
+.mb_top img:first-child{
+    margin-left: 0;
+}
+.mb_top .flex{
+    justify-content: center;
+}
+.mb_btn{
+    padding: .35rem 0 0.1rem;
+    font-size: .22rem;
+    color:#333;
+    justify-content: center;
+    line-height: 1;
+    text-align: center;
+}
+.mb_btn > div{
+    margin:0 .4rem ;
+}
+.mb_btn > div:first-child{
+    margin-left: 0;
+}
+.mb_btn > div:last-child{
+    margin-right: 0;
+}
+.mb_btn img{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    margin-bottom: .15rem;
+}
+.mb_tabbar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+}
+.mb_tabbar .tabbtn{
+    padding: .12rem 0;
+    box-shadow: 0 -2px 2px #e7e7e7;
+    text-align: center;
+    justify-content: space-around;
+}
+.tabbtn img{
+    display: block;
+    width: .45rem;
+    height: .45rem;
+    margin: 0 auto  .1rem;
+}
+.tabbtn img:nth-child(2){
+    display: none;
+}
+.tabbtn  .active img:first-child{
+    display: none;
+}
+.tabbtn  .active img:nth-child(2){
+    display: block;
+}
+.tabbtn a{
+    font-size: .24rem;
+    color: #333;
+    line-height: 1;
+}
+.tabbtn .active a{
+    color: #c4121e;
+}
+.loading{
+    padding-bottom: 1.5rem;
+}
